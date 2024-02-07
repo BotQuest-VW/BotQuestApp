@@ -6,7 +6,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent" android:background="#031B2B">
+            android:layout_height="match_parent" android:background="@drawable/gradient">
 
         <TextView
                 android:text="BotQuest VW"

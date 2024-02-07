@@ -15,6 +15,6 @@ import com.example.vwapp.ui.theme.VWAppTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.home)
+        setContentView(R.layout.login)
     }
 }
