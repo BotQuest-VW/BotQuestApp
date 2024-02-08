@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.vwapp"
+    namespace = "com.example.vwapp" 
     compileSdk = 34
 
     defaultConfig {
