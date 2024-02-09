@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.NavController
+import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
 
 // TODO: Rename parameter arguments, choose names that match
@@ -32,9 +33,7 @@ class FirstFragment : Fragment() {
 
         val view = inflater.inflate(R.layout.fragment_first, container, false)
 
-        navController = findNavController()
-
-        view.findViewById<Button>(R.id.login_button).setOnClickListener { navController.navigate(R.id.FirstToSecond) }
+        view.findViewById<Button>(R.id.login_button).setOnClickListener { Navigation.findNavController(view).navigate(R.id.FirstToSecond) }
 
         return view
 
