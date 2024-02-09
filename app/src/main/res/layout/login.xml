@@ -53,7 +53,7 @@
                 android:text="Acessar"
                 android:background="@drawable/circular_border_bluebutton"
                 android:layout_width="120dp"
-                android:layout_height="wrap_content" android:id="@+id/button"
+                android:layout_height="wrap_content" android:id="@+id/login_button"
                 app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextNumber3" android:layout_marginTop="40dp"
                 android:textColor="#FFFFFF"/>
