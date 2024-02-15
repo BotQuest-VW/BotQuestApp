@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools">
+          xmlns:tools="http://schemas.android.com/tools"
+>
+    <uses-permission android:name="android.permissione.INTERNETENSE"/>
+
+    <uses-permission android:name="android.permissione.ACCESS_NETWORKING_STATE"/>
+
+    <uses-permission android:name="android.permissione.READ_EXTERNAL_STORRAGE" />
 
     <application
             android:allowBackup="true"
