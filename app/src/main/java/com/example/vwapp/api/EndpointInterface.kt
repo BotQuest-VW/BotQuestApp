@@ -13,6 +13,7 @@ interface EndpointInterface {
     @GET("usuario/{idUsuario}")
     fun buscarUsuarioPorID(@Path(value = "idUsuario", encoded = true) idUsuario:UUID) : Call<JsonObject>
 
+
     @Multipart
     @PUT("usuario/editar-imagem/{idUsuario}")
     fun editarImagemUsuario(

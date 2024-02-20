@@ -92,64 +92,75 @@
             android:layout_height="wrap_content" android:id="@+id/imageView6"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
+
+
     <ScrollView
             android:background="@drawable/circular_border_home"
-            android:layout_width="350dp"
+            android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginHorizontal="15dp"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/header_title6"
-            app:layout_constraintBottom_toTopOf="@+id/imageView6" app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintVertical_bias="1.0" android:layout_marginEnd="30dp" android:id="@+id/scrollView2">
+            app:layout_constraintBottom_toTopOf="@+id/imageView6"
+            app:layout_constraintVertical_bias="1.0" android:id="@+id/scrollView2">
+
+
         <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
-                      android:orientation="vertical" android:gravity="center">
+                      android:orientation="vertical" android:gravity="center" android:padding="30dp">
             <TextView
+
                     android:text="- Preciso enviar um atestado. Como faço?"
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/textView3" android:textColor="#FFFFFF"
-                    android:textFontWeight="900" android:textAlignment="textStart"/>
+                    android:textFontWeight="1000" android:textAlignment="textStart" android:textSize="18dp"/>
             <TextView
+                    android:layout_marginBottom="15dp"
                     android:text="Através do chatbot na versão web, é possivel acionar o RH e enviar seu atestado."
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/textView6" android:textColor="#FFFFFF"
                     android:textAlignment="textStart"/>
             <TextView
                     android:text="-Quais são as opções para recebimento da 1ª parcela do 13º salário?"
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/textView7" android:textColor="#FFFFFF"
-                    android:textFontWeight="900" android:textAlignment="textStart"/>
+                    android:textFontWeight="1000" android:textAlignment="textStart" android:textSize="18dp"/>
             <TextView
+                    android:layout_marginBottom="15dp"
                     android:text="O 13º salário é normalmente pago em duas parcelas. Enquanto a segunda parcela é paga obrigatoriamente no mês de dezembro, a primeira oferece ao servidor duas opções: ou no mês do seu aniversário; ou em novembro."
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/textView8" android:textColor="#FFFFFF"
                     android:textAlignment="textStart"/>
             <TextView
                     android:text="-Como faço para checar se a minha solicitação no Portal foi atendida? "
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/textView10" android:textColor="#FFFFFF"
-                    android:textAlignment="textStart" android:textFontWeight="900"/>
+                    android:textAlignment="textStart" android:textFontWeight="1000" android:textSize="18dp"/>
             <TextView
+                    android:layout_marginBottom="15dp"
                     android:text="Sempre que o servidor faz uma requisição por meio do Portal de Serviços, ele é informado em relação aos trâmites e ao encaminhamento dado à sua demanda por meio do próprio sistema eletrônico, que envia estas e outras mensagens informativas e orientações para a sua página no Portal. É por isso que o acesso ao site deve fazer parte da rotina de todos os servidores. O ideal é que você cheque diariamente as mensagens. O procedimento é super-simples. Ao clicar no campo mensagens do menu azul, você encontra uma lista. Basta selecionar a mensagem desejada, e ela parecerá por inteiro na tela."
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/textView11" android:textColor="#FFFFFF"
                     android:textAlignment="textStart"/>
             <TextView
                     android:text="-Como eu posso alterar a opção de recebimento do 13º salário?"
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/textView12" android:textColor="#FFFFFF"
-                    android:textAlignment="textStart" android:textFontWeight="900"/>
+                    android:textAlignment="textStart" android:textFontWeight="1000" android:textSize="18dp"/>
             <TextView
+                    android:layout_marginBottom="15dp"
                     android:text="Se você for servidor ativo e deseja alterar a o mês em que recebe a primeira parcela do 13º salário, basta ingressar com seu número de matrícula e senha na área de acesso restrito do Portal de Serviços e ir até o menu azul, arrastando o mouse pelos campos Requerimentos e em seguida, Adiantamento do 13º salário. Na tela seguinte, é só escolher uma das opções disponíveis (Novembro ou Aniversário) e clicar no botão Solicitar.  É importante observar que se você já tiver recebido a 1ª parcela ou mesmo se o mês do seu aniversário já tiver passado a mudança de opção somente passará a ter efeito a partir do ano seguinte.  No caso de pensionistas e inativos, para efetuar essa alteração, é necessário abrir processo, no SAC, apresentando cópia do RG e CPF, além de solicitação por escrito."
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/textView13" android:textColor="#FFFFFF"
                     android:textAlignment="textStart"/>
             <TextView
                     android:text="-Como acesso meu extrato de consignações?"
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/textView14" android:textColor="#FFFFFF"
-                    android:textAlignment="textStart" android:textFontWeight="900"/>
+                    android:textAlignment="textStart" android:textFontWeight="1000" android:textSize="18dp"/>
             <TextView
+                    android:layout_marginBottom="15dp"
                     android:text="Depois de ingressar na área de acesso restrito do Portal com seu número de matrícula e senha, você pode clicar diretamente no ícone Extrato Consignação ou ir até o menu azul e parar o cursor sobre o campo Dados Cadastrais, arrastando em seguida o mouse até os campos Funcionais e Extrato de Consignado."
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/textView23" android:textColor="#FFFFFF"
                     android:textAlignment="textStart"/>
         </LinearLayout>
