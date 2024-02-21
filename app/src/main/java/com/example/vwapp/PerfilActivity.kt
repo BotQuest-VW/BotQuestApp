@@ -150,7 +150,7 @@ class PerfilActivity : AppCompatActivity() {
         endpoints.editarImagemUsuario(imagemPart, UUID.fromString(idUsuario)).enqueue(object : Callback<JsonObject> {
             override fun onResponse(call: Call<JsonObject>, response: Response<JsonObject>) {
                 // Exibir mensagem de sucesso
-                Toast.makeText(this@PerfilActivity, response.code().toString(), Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@PerfilActivity, "Alteração de Imagem realizada com sucesso", Toast.LENGTH_SHORT).show()
             }
 
             override fun onFailure(call: Call<JsonObject>, t: Throwable) {
