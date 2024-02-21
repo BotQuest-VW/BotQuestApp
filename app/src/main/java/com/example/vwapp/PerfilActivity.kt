@@ -145,7 +145,7 @@ class PerfilActivity : AppCompatActivity() {
 
         // Criar partes Multipart para a imagem
         val requestFile = RequestBody.create(MediaType.parse("image/*"), file)
-        val imagemPart = MultipartBody.Part.createFormData("imagem", file.name, requestFile)
+        val imagemPart = MultipartBody.Part.createFormData("url_img", file.name, requestFile)
 
         endpoints.editarImagemUsuario(imagemPart, UUID.fromString(idUsuario)).enqueue(object : Callback<JsonObject> {
             override fun onResponse(call: Call<JsonObject>, response: Response<JsonObject>) {

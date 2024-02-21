@@ -11,13 +11,13 @@ interface EndpointInterface {
     fun login(@Body usuario: Login): Call<JsonObject>
 
     @GET("usuario/{idUsuario}")
-    fun buscarUsuarioPorID(@Path(value = "idUsuario", encoded = true) idUsuario:UUID) : Call<JsonObject>
+    fun buscarUsuarioPorID(@Path(value = "idUsuario", encoded = true) id: UUID) : Call<JsonObject>
 
 
     @Multipart
     @PUT("usuario/editar-imagem/{idUsuario}")
     fun editarImagemUsuario(
         @Part imagem: MultipartBody.Part,
-        @Part(value = "idUsuario") idUsuario: UUID
+        @Path(value = "idUsuario", encoded = true) id: UUID
     ) : Call<JsonObject>
 }
