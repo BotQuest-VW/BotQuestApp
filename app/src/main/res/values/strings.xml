@@ -5,4 +5,7 @@
 
     <string name="escolher_imagem">Escolher imagem</string>
     <string name="capturar_imagem">Capturar imagem</string>
+    <string name="email">VW - Email</string>
+    <string name="senha">Senha</string>
+
 </resources>

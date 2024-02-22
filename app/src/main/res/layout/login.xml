@@ -21,7 +21,7 @@
                 android:layout_height="wrap_content" android:id="@+id/textView2"
                 app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp" app:layout_constraintTop_toBottomOf="@+id/textView"
+                android:textSize="48sp" app:layout_constraintTop_toBottomOf="@+id/textView"
                 android:layout_marginTop="40dp"/>
         <ImageView
                 android:src="@drawable/volksbot__paz__1"
@@ -37,18 +37,20 @@
                 android:ems="10"
                 android:id="@+id/editTextNumber"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" android:hint="VW - ID" android:textAlignment="center"
+                app:layout_constraintStart_toStartOf="parent"
+                android:hint="@string/email" android:textAlignment="center"
                 app:layout_constraintTop_toBottomOf="@+id/textView2" android:layout_marginTop="74dp"
                 android:textColor="#000000"/>
         <EditText
                 android:background="@drawable/circular_border_input"
                 android:layout_width="333dp"
                 android:layout_height="42dp"
-                android:inputType="text"
+                android:inputType="textPassword"
                 android:ems="10"
                 android:id="@+id/editTextNumber3"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" android:hint="Senha" android:textAlignment="center"
+                app:layout_constraintStart_toStartOf="parent"
+                android:hint="@string/senha" android:textAlignment="center"
                 app:layout_constraintTop_toBottomOf="@+id/editTextNumber" android:layout_marginTop="28dp"
                 android:textColor="#000000"/>
         <Button
